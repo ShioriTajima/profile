@@ -25,10 +25,10 @@ export default function Page() {
       <Image
         src="/images/myImage.jpg" alt="私の画像" width={800} height={500} className="w-full max-w-4xl object-contain rounded-2xl object-cover aspect-[4/3]"
       />
-      <h1 className="text-5xl text-blue-900 font-bold underline p-10">
+      <h1 className="text-5xl text-blue-900 font-bold p-10">
         田島史織
       </h1>
-      <h1 className="text-3xl text-blue-500 font-bold px-10 pt-10">好きなもの</h1>
+      <h1 className="text-3xl text-red-500 font-bold px-10 pt-10">好きなもの</h1>
 
       <div className="flex justify-center flex-wrap gap-10 bg-teal-500 p-10 m-5 rounded-2xl">
         {favorites.map((favorite, index) => (
